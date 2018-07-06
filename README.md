@@ -18,3 +18,7 @@ gitcheckout
 
 ## TODO
 - [ ] Add GIF
+- [ ] Add tests
+
+## Acknowledgements
+Idea taken from *https://github.com/ferhensil/interactive-git-checkout*!
