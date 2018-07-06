@@ -19,6 +19,6 @@ gitcheckout
 ## TODO
 - [ ] Add GIF
 - [ ] Add tests
-
-## Acknowledgements
-Idea taken from *https://github.com/ferhensil/interactive-git-checkout*!
+- [ ] Bash script to install
+- [ ] Add delete support
+- [ ] Add merge support
