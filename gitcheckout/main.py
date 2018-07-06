@@ -16,7 +16,7 @@ def main():
     question = [
         inquirer.List(
             'branch',
-            message='Which branch',
+            message='Choice',
             choices=[str(branch) for branch in branches],
         ),
     ]
@@ -28,7 +28,6 @@ def main():
 
     choice = choice['branch']
     branch_lookup[choice].checkout()
-    print('Checked out {}!'.format(choice))
 
 
 if __name__ == '__main__':

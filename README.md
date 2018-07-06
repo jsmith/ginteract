@@ -8,5 +8,13 @@ pip install gitcheckout
 git config --global alias.ch '!gitcheckout'
 ```
 
+## Usage
+```
+git ch
+
+# or use the command directly
+gitcheckout
+```
+
 ## TODO
-[ ] Add GIF
+- [ ] Add GIF
