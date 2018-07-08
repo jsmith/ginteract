@@ -6,7 +6,7 @@ Quickly checkout your most recent branch!
 ## Installation
 Requirements: Python 3.*
 ```
-wget -L https://git.io/fNfqh | bash
+wget -L https://git.io/fNfqh -0- | bash
 ```
 
 ## Usage
