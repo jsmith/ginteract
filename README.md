@@ -6,8 +6,7 @@ Quickly checkout your most recent branch!
 ## Installation
 Requirements: Python 3.*
 ```
-pip install gitcheckout
-git config --global alias.ch '!gitcheckout'
+wget -L https://git.io/fNfqh | bash
 ```
 
 ## Usage
