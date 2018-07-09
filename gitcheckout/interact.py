@@ -25,8 +25,8 @@ class Choices(click.Choice):
         return 'Choices(%r)' % list(self.choices)
 
 
-def prompt(message, choices, multiple=False):
-    cls = inquirer.Checkbox if multiple else inquirer.Checkbox
+def prompt(choices, message='Choice', multiple=False):
+    cls = inquirer.Checkbox if multiple else inquirer.List
     question = [cls('key', message=message, choices=choices)]
     try:
         choice = inquirer.prompt(question)

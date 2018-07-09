@@ -60,7 +60,7 @@ class TestMain(unittest.TestCase):
 
     @click_runner
     def test_delete(self, runner):
-        result = runner.invoke(main.delete, input='branch0 branch1')
+        result = runner.invoke(main.delete, input='branch0 branch1\ny')
         assert 1 == len(self.repo.branches)
         return result
 
