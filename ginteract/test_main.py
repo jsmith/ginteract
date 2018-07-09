@@ -7,7 +7,7 @@ import uuid
 import click.testing
 import git
 
-from gitcheckout import main
+from ginteract import main
 
 
 def click_runner(func):

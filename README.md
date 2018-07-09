@@ -27,3 +27,4 @@ gitcheckout delete
 - [x] Bash script to install
 - [x] Add delete support
 - [x] Add merge support
+- [ ] Remote support

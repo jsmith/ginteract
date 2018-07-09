@@ -1,21 +1,24 @@
 from setuptools import setup
 
+with open('README.md') as fp:
+    readme = fp.read()
+
 setup(
-    name='gitcheckout',
-    packages=['gitcheckout'],
-    version='0.2',
-    include_package_data=True,
-    description='A utility to reduce the amount of time it takes to checkout git branches!',
+    name='ginteract',
+    packages=['ginteract'],
+    version='0.2.1',
+    description='An interactive Git client!',
+    long_description=readme,
     author='Jacob Smith',
     author_email='jacob.smith@unb.ca',
-    url='http://github.com/jacsmith21/gitcheckout',
+    url='http://github.com/jacsmith21/ginteract',
     install_requires=[
         'GitPython',
         'inquirer',
         'click'
     ],
     entry_points={
-        'console_scripts': ['gitcheckout=gitcheckout.main:main']
+        'console_scripts': ['ginteract=ginteract.main:main']
     }
 )
 

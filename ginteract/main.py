@@ -5,7 +5,7 @@ import sys
 import click
 import git
 
-from gitcheckout import interact
+from ginteract import interact
 
 
 @click.group()
