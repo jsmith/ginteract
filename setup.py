@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='gitcheckout',
     packages=['gitcheckout'],
-    version='0.1',
+    version='0.2',
     include_package_data=True,
     description='A utility to reduce the amount of time it takes to checkout git branches!',
     author='Jacob Smith',
