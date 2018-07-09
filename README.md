@@ -19,7 +19,7 @@ gitcheckout
 
 ## TODO
 - [x] Add GIF
-- [ ] Add tests
-- [ ] Bash script to install
-- [ ] Add delete support
-- [ ] Add merge support
+- [x] Add tests
+- [x] Bash script to install
+- [x] Add delete support
+- [x] Add merge support
