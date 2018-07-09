@@ -6,15 +6,19 @@ Quickly checkout your most recent branch!
 ## Installation
 Requirements: Python 3.*
 ```
-wget -L https://git.io/fNfqh -0- | bash
+wget -L https://git.io/fNfqh -O- | bash
 ```
 
 ## Usage
 ```
-git ch
+git ch  # checkout a branch
+git mg  # merge a branch into current branch
+git dl  # delete branches
 
-# or use the command directly
-gitcheckout
+# or use the commands directly
+gitcheckout checkout
+gitcheckout merge
+gitcheckout delete
 ```
 
 ## TODO

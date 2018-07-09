@@ -11,7 +11,8 @@ setup(
     url='http://github.com/jacsmith21/gitcheckout',
     install_requires=[
         'GitPython',
-        'inquirer', 'click'
+        'inquirer',
+        'click'
     ],
     entry_points={
         'console_scripts': ['gitcheckout=gitcheckout.main:main']
