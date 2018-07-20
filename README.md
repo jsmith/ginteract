@@ -1,10 +1,12 @@
 # Git Checkout
-Quickly checkout your most recent branch!
+An interactive Git client!
 
 <a href="https://asciinema.org/a/ByGs7AeXHOlUMIKMjHmM7N9k5" target="_blank"><img src="https://asciinema.org/a/ByGs7AeXHOlUMIKMjHmM7N9k5.png" /></a>
 
 ## Installation
 Requirements: Python 3.*
+
+Run this scripts https://git.io/fNfqh:
 ```
 wget -L https://git.io/fNfqh -O- | bash
 ```
@@ -16,9 +18,9 @@ git mg  # merge a branch into current branch
 git dl  # delete branches
 
 # or use the commands directly
-gitcheckout checkout
-gitcheckout merge
-gitcheckout delete
+ginteract checkout
+ginteract merge
+ginteract delete
 ```
 
 ## TODO

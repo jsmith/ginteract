@@ -9,6 +9,7 @@ setup(
     version='0.2.2',
     description='An interactive Git client!',
     long_description=readme,
+    long_description_content_type='text/markdown',
     author='Jacob Smith',
     author_email='jacob.smith@unb.ca',
     url='http://github.com/jacsmith21/ginteract',
