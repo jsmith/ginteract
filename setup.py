@@ -12,7 +12,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Jacob Smith',
     author_email='jacob.smith@unb.ca',
-    url='http://github.com/jacsmith21/ginteract',
+    url='https://github.com/jsmith/ginteract',
     license='MIT',
     install_requires=[
         'GitPython',
